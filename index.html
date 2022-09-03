@@ -9,9 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -32,8 +31,8 @@
             <h1 id="alternate">AN ONLINE ALTERNATE FOR</h1>
             <h1 id="dispute">DISPUTE RESOLUTION</h1>
             <div class="button">
-                <a id="file-your-claim" href="#"><span class="glyphicon glyphicon-edit"></span> &nbsp; File Your Claim
-                    &nbsp; <span class="glyphicon glyphicon-arrow-right"></span></a>
+                <a id="file-your-claim" href="#"><i class="fa fa-file-text-o"></i></span>&nbsp;&nbsp; File Your Claim
+                    &nbsp;<i class="fa fa-arrow-right" style='color:white'></i></a>
             </div>
         </div>
     </section>
@@ -87,39 +86,38 @@
                             <div class="main">
 
                                 <div class="div1">
-                                    <h3 href="#"><span class="icons"><i
-                                                class="fa fa-file-text-o"></i></span>&nbsp;&nbsp; E-filing of your
-                                        Claims & details of the respondent</h3>
+                                    <h5 href="#"><span class="icons"><i class="fa fa-file-text-o"></i></span>&nbsp;&nbsp; E-filing of your
+                                        Claims & details of the respondent</h5>
                                 </div>
 
                                 <div class="div1">
-                                    <h3 href="#"><span class="icons"><i class="fa fa-user-o"></i></span> &nbsp;&nbsp;
-                                        Scrutiny of Notice & Claim by Case Manager</h3>
+                                    <h5 href="#"><span class="icons"><i class="fa fa-user-o"></i></span> &nbsp;&nbsp;
+                                        Scrutiny of Notice & Claim by Case Manager</h5>
                                 </div>
 
                                 <div class="div1">
-                                    <h3 href="#"><span class="icons glyphicon glyphicon-time"></span> &nbsp;&nbsp;
-                                        Electronic intimation to respondent <span class="slide-1"> > </span> </h3>
+                                    <h5 href="#"><i class="icons fa fa-exclamation-circle"></i> &nbsp;&nbsp;
+                                        Electronic intimation to respondent <span class="slide-1"> > </span> </h5>
                                 </div>
 
                                 <div class="div1">
-                                    <h3 href="#"><span class="icons"><i class="fa fa-credit-card"></i></span>
-                                        &nbsp;&nbsp; Online payment </h3>
+                                    <h5 href="#"><span class="icons"><i class="fa fa-credit-card"></i></span>
+                                        &nbsp;&nbsp; Online payment </h5>
                                 </div>
 
                                 <div class="div1">
-                                    <h3 href="#"><span class="icons"><i class="fa fa-bell-o"></i></span> &nbsp;&nbsp;
-                                        Automated Notification & Reminders</h3>
+                                    <h5 href="#"><span class="icons"><i class="fa fa-bell-o"></i></span> &nbsp;&nbsp;
+                                        Automated Notification & Reminders</h5>
                                 </div>
 
                                 <div class="div1">
-                                    <h3 href="#"><span class="icons"><i class="fa fa-users"></i></span> &nbsp; &nbsp;
-                                        Role-based dashboards</h3>
+                                    <h5 href="#"><span class="icons"><i class="fa fa-users"></i></span> &nbsp; &nbsp;
+                                        Role-based dashboards</h5>
                                 </div>
 
                                 <div class="div1">
-                                    <h3 href="#"><span class="icons"><i class="fa fa-file-o"></i></span>&nbsp; &nbsp;
-                                        Multi-level actions for various documents received and sent</h3>
+                                    <h5 href="#"><span class="icons"><i class="fa fa-file-o"></i></span>&nbsp; &nbsp;
+                                        Multi-level actions for various documents received and sent</h5>
                                 </div>
                                 <div class="pagination">
                                     <nav aria-label="...">
@@ -240,15 +238,15 @@
             <div class="row calculator ">
                 <div class="col-sm-6 calculator-left">
                     <h1 class="calu-heading">Fee Calculator</h1>
-                    <h4 class="calu-heading2">
+                    <h5 class="calu-heading2">
                         They will fillup the form and fee will be emailed too and also show-up on the section.
-                    </h4>
+                    </h5>
                 </div>
                 <div class="col-sm-6 calculator-right">
                     <div class="main-1">
                         <form>
                             <div class="form-group">
-                                <label for="Type-of-Procedure">Type of Procedure</label>
+                                <label style="padding-bottom: 10px;" for="Type-of-Procedure">Type of Procedure</label>
                                 <div class="form-group">
                                     <select class="form-control" id="Mediation">
                                         <option>Mediation</option>
@@ -259,11 +257,11 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label for="Amount-Dispute">Amount in Dispute</label>
+                            <div style="padding-top: 15px;" class="form-group">
+                                <label style="padding-bottom: 10px;" for="Amount-Dispute">Amount in Dispute</label>
                                 <input type="text" class="form-control" id="Amount-Dispute">
                             </div>
-                            <div class="calculator-button">
+                            <div class="d-grid gap-2 calculator-button">
                                 <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
                             </div>
                         </form>
@@ -382,7 +380,7 @@
                 <div class="col-sm-6">
                     <div class="button-contack">
                         <a class="contact-us-now" href="#">Contact Us  Now
-                            &nbsp; &nbsp; <span class="glyphicon glyphicon-arrow-right"></span></a>
+                            &nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
                     </div>
                     <div class="imgarrow-right">
                         <img class="imgarr" src="Images/Arrow-right.png" alt="">
@@ -394,24 +392,130 @@
 
 
     <section>
-        <div class="container-fluid bottom">
-            <div class="row">
-                <div class="col d-flex justify-content-around">
-                    <h2 class="headd">Company</h2>
-                <div>
-                <div class="col d-flex justify-content-around">
-                    <h2 class="headd">
-                        FAQs
-                    </h2>
+            <footer class="page-footer font-small indigo bottom-main">
+
+                <!-- Footer Links -->
+                <div class="container-fluid text-md-left text-md-left">
+              
+                  <!-- Grid row -->
+                  <div class="row">
+              
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+              
+                      <!-- Links -->
+                      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Company</h5>
+              
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                          <a href="#!">Founder</a>
+                        </li>
+                        <li>
+                          <a href="#!">Core Team</a>
+                        </li>
+                        <li>
+                          <a href="#!">Contack Us</a>
+                        </li>
+                      </ul>
+              
+                    </div>
+                    <!-- Grid column -->
+              
+                    <hr class="clearfix w-100 d-md-none">
+              
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+              
+                      <!-- Links -->
+                      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">FQs</h5>
+              
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="#!">ADR</a>
+                        </li>
+                        <li>
+                          <a href="#!">Platform</a>
+                        </li>
+                        <li>
+                          <a href="#!">Marketplace</a>
+                        </li>
+                        <li>
+                          <a href="#!">Legal</a>
+                        </li>
+                      </ul>
+              
+                    </div>
+                    <!-- Grid column -->
+              
+                    <hr class="clearfix w-100 d-md-none">
+              
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+              
+                      <!-- Links -->
+                      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Follow us</h5>
+              
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="#!">LinkedIn</a>
+                        </li>
+                        <li>
+                          <a href="#!">Twitter</a>
+                        </li>
+                        <li>
+                          <a href="#!">Instagram</a>
+                        </li>
+                        <li>
+                          <a href="#!">Facebook</a>
+                        </li>
+                      </ul>
+              
+                    </div>
+                    <!-- Grid column -->
+              
+                    <hr class="clearfix w-100 d-md-none">
+              
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+              
+                      <!-- Links -->
+                      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Media</h5>
+              
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                          <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                          <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                          <a href="#!">Link 4</a>
+                        </li>
+                      </ul>
+              
+                    </div>
+                    <!-- Grid column -->
+              
+                  </div>
+                  <!-- Grid row -->
+              
                 </div>
-                <div class="col d-flex justify-content-around">
-                    <h2 class="headd">Follow us</h2>
+                <!-- Footer Links -->
+              
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                  <a href="/"> MDBootstrap.com</a>
                 </div>
-                <div class="col d-flex justify-content-around">
-                    <h2 class="headd">Media</h2>
-                </div>
-            </div>
-          </div>
+                <!-- Copyright -->
+              
+              </footer>
+              <!-- Footer -->
     </section>
 
 

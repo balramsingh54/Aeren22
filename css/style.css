@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 12px;
 }
 
 .the-arbitration{
@@ -251,7 +252,7 @@
   }
 
   .calculator-button{
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
  .neutrals{
@@ -344,6 +345,11 @@
   padding: 10px 15px;
 }
 
+.imgarrow-right{
+  text-align: right;
+  margin-top: 60px;
+}
+
 .below-scretch{
   margin: 20px;
 }
@@ -366,9 +372,6 @@
 }
 
 .imgarr{
-  position: absolute;
-  right: 0;
-  top: 70px;
   width: 200px;
   height: 100px;
 }
@@ -380,4 +383,11 @@
 
 .bottom{
   background-color: #D3D3D3;
+}
+
+.bottom-main{
+  margin-top: 100px;
+  background-color: #081242;
+  color: #ffffff;
+  padding: 30px 0 30px 170px;
 }
