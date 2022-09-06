@@ -162,7 +162,7 @@
 } */
 
 .arbitration2{
-    padding-left: 140px;
+    padding-left: 80px;
     bottom: -24px;
     font-size: 33px;
     color: black;
@@ -308,7 +308,7 @@
 
 
 .query-main{
-  margin: 50px 0;
+  padding: 50px 0;
 }
 
 
@@ -325,7 +325,7 @@
 .below-scretch{
   margin: 20px;
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 
 .contact-us-now{
@@ -340,6 +340,11 @@
 .query-heading{
   padding: 50px 20px 0 20px;
   font-size: 35px;
+}
+
+.sctch{
+  max-width: 50%;
+  margin-left: 20px;
 }
 
 .button-contack{
@@ -362,7 +367,6 @@
 }
 
 .bottom-main{
-  margin-top: 100px;
   background-color: #081242;
   color: #ffffff;
   padding: 30px 0 30px 50px;
@@ -400,20 +404,227 @@ div div img{
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
+
+  #bench {
+    margin-top: 20px;
+    font-size: 40px;
+  }
+
+  #alternate {
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  #dispute {
+    font-size: 30px;
+  }
+
   #judge-shadow {
     padding: 33px;
+    margin: 20px;
     width: 100%;
     border-radius: 5px;
+  }
+
+  .case-nitiation {
+    padding: 20px 10px 50px 10px;
   }
 
   #jupitice-shadow {
     padding: 30px 10px;
     width: 100%;
+  }
+
+  .arbitration2 {
+    padding-left: 40px;
+    font-size: 21px;
+}
+
+  .arbitration {
+    padding-left: 0px;
+    bottom: -50px;
+    font-size: 20px;
+    color: black;
+  }
+
+  .jupitice-div {
+    padding: 0px 15px;
+  }
+
+  #eco-shadow {
+  width: 100%;
+  }
+
+
+
+  .calculator {
+    padding: 50px;
+  }
+
+  .calu-heading2 {
+    padding: 0 0px 30px 0;
+    }
+
+    .calculator-right {
+      width: 100% !important;
+  }
+
+  .trust {
+    padding: 40px 20px;
+  }
+
+  .buttontick {
+    margin-bottom: 30px;
+  }
+
+  .calculator-left {
+    margin: auto;
+    padding-top: 0;
+}
+
+  .query-overide {
+    padding-left: 20px;
+  }
+
+  .imgarr {
+    width: 133px;
+    height: 50px;
+  }
+
+  .register {
+    position: relative;
+  }
+
+  .neutrals-heading {
+    font-size: 30px;
+}
+
+  .policy{
+    padding-left: 0 !important;
   }
 }
 
-@media screen and (min-width: 601px) and (max-width:900px) {
+@media screen and (min-width: 401px) and (max-width:576px) {
+
+
+  #bench {
+    margin-top: 20px;
+    font-size: 40px;
+  }
+
+  #alternate {
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  #dispute {
+    font-size: 30px;
+  }
+
+  #judge-shadow {
+    padding: 33px;
+    margin: 20px;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .case-nitiation {
+    padding: 20px 10px 50px 10px;
+  }
+
+  #jupitice-shadow {
+    padding: 30px 10px;
+    width: 100%;
+  }
+
+  .arbitration2 {
+    padding-left: 80px;
+    font-size: 28px;
+}
+
+  .arbitration {
+    padding-left: 0px;
+    bottom: -50px;
+    font-size: 23px;
+    color: black;
+  }
+
+  .jupitice-div {
+    padding: 0px 15px;
+  }
+
+  #eco-shadow {
+  width: 100%;
+  }
+
+
+
+  .calculator {
+    padding: 50px;
+  }
+
+  .calu-heading2 {
+    padding: 0 0px 30px 0;
+    }
+
+    .calculator-right {
+      width: 100% !important;
+  }
+
+  .trust {
+    padding: 40px 20px;
+  }
+
+  .buttontick {
+    margin-bottom: 30px;
+  }
+
+  .calculator-left {
+    margin: auto;
+    padding-top: 0;
+}
+
+  .query-overide {
+    padding-left: 20px;
+  }
+
+  .imgarr {
+    width: 133px;
+    height: 50px;
+  }
+
+  .register {
+    position: relative;
+  }
+
+  .neutrals-heading {
+    font-size: 30px;
+}
+
+  .policy{
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width:768px) {
+
+  #bench {
+    font-size: 50px;
+    margin-top: 30px;
+
+  }
+
+  #alternate {
+    font-size: 35px;
+    padding-top: 20px;
+  }
+
+  #dispute {
+    padding-top: 20px;
+    font-size: 35px;
+}
+
 
   #judge-shadow {
     padding: 33px;
@@ -425,5 +636,167 @@ div div img{
     padding: 30px 10px;
     width: 100%;
   }
+
+  #eco-shadow {
+    padding: 0 0 20px 0;
+    width: 100%;
+    margin: 20px 0px;
+    border-radius: 5px;
+    }
+
+    .calculator {
+      padding: 40px 70px;
+  }
   
+  .calculator-right {
+    margin-top: 30px !important;
+    width: 100% !important;
+  }
+
+  .calculator-left {
+    width: 100% !important;
+    margin: auto;
+    padding-top: 0;
+  }
+
+  .trust{
+    padding: 30px;
+  }
+
+  .trust-left {
+    width: 100% !important;
+    padding: 40px 30px;
+  }
+
+  .trust-right {
+    width: 100% !important;
+    padding: 40px 30px;
+  }
+
+  .imgfin{
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .nnnn{
+    width: 100% !important;
+  }
+
+  .query-heading {
+    padding: 50px 20px 0 0px;
+    font-size: 35px;
+  }
+
+  .below-scretch {
+    margin: 20px 20px 20px 0;
+  }
+
+  .arbitration2 {
+    padding-left: 150px;
+    bottom: -24px;
+    font-size: 40px;
+    color: black;
+  }
+
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width:1020px) {
+
+  .the-arbitration {
+    padding: 180px 0 200px 0;
+  }
+
+  .arbitration2 {
+    padding-left: 165px;
+    bottom: -24px;
+    font-size: 40px;
+    color: black;
+  }
+  
+  #bench {
+    font-size: 50px;
+    margin-top: 30px;
+
+  }
+
+
+  #alternate {
+    font-size: 35px;
+    padding-top: 20px;
+  }
+
+  #dispute {
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+
+  #judge-shadow {
+    padding: 33px;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  #jupitice-shadow {
+    padding: 30px 10px;
+    width: 100%;
+  }
+
+  #eco-shadow {
+    padding: 0 0 20px 0;
+    width: 100%;
+    margin: 20px 0px;
+    border-radius: 5px;
+    }
+
+    .calculator {
+      padding: 40px 70px;
+  }
+  
+  .calculator-right {
+    margin-top: 30px !important;
+    width: 100% !important;
+  }
+
+  .calculator-left {
+    width: 100% !important;
+    margin: auto;
+    padding-top: 0;
+  }
+
+  .trust{
+    padding: 30px;
+  }
+
+  .trust-left {
+    width: 100% !important;
+    padding: 40px 30px;
+  }
+
+  .trust-right {
+    width: 100% !important;
+    padding: 40px 30px;
+  }
+
+  .imgfin{
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .nnnn{
+    width: 100% !important;
+  }
+
+  .query-heading {
+    padding: 50px 20px 0 0px;
+    font-size: 35px;
+  }
+
+  .below-scretch {
+    margin: 20px 20px 20px 0;
+  }
+
+
 }
