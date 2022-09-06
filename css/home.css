@@ -112,6 +112,7 @@
 #jupitice-shadow{
     padding: 0 10px;
     width: 50%;
+    border-radius: 5px;
 }
 
 .jupitice-head{
