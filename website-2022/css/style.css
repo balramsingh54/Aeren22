@@ -3507,7 +3507,7 @@ p.sub-title{font-size: 35px;}
 .right-side-inner .card-header{background: transparent;}
 
 .color-dark .marketplace-slider h1, .color-dark .marketplace-slider .subtitle{color: #fff;}
-.marketplace-slider {padding-top: 30px; }
+/* .marketplace-slider {padding-top: 30px; } */
 
 .advantages-list h1, .advantages-list p, .advantages-list ul li{color: #000;}
 body.color-dark .advantages-list h1, body.color-dark .advantages-list p, body.color-dark .advantages-list ul li{color: #fff;}

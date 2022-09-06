@@ -42,7 +42,7 @@
 }
 
 .arbitration{
-    padding-left: 50px;
+    padding-left: 20px;
     bottom: -50px;
     font-size: 33px;
     color: black;
@@ -50,10 +50,12 @@
 
 .arrow{
     padding-bottom: 50px;
+    background-color: #ffffff;
 }
 
 .judgement-div{
     padding:20px 60px;
+    background-color: #ffffff;
 }
 
 #judmentDiv{
@@ -104,11 +106,11 @@
 }
 
 .jupitice-div{
-    padding:20px 50px;
+    padding: 50px;
 }
 
 #jupitice-shadow{
-    padding: 30px 10px;
+    padding: 0 10px;
     width: 50%;
 }
 
@@ -152,6 +154,10 @@
     margin-left: 150px;
     padding: 5px;
     border-radius: 20%;
+}
+
+.arrow2{
+    background-color: #ffffff;
 }
 
 /* .arrow2{
@@ -265,7 +271,7 @@
 
  .neutrals{
     text-align: center;
-    padding: 100px 0 0 0;
+    padding: 70px 0 0 0;
   }
 
 
@@ -309,6 +315,7 @@
 
 .query-main{
   padding: 50px 0;
+  background-color: #ffffff;
 }
 
 
