@@ -958,6 +958,13 @@ body .slider {
 }
 
 /* NAVBAR */
+
+/* #navbarSupportedContent{
+  position: fixed;
+  right: 10px;
+} */
+
+
 .navbar {
   width: 100%;
   display: flex;

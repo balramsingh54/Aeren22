@@ -1,0 +1,38 @@
+.main-d{
+    padding-top: 50px;
+    border-radius: 5px;
+}
+
+
+.left-box{
+    background-color: #F3F9FF;
+    font-style: Founders Grotesk;
+}
+
+ul{
+    padding-top: 30px;
+}
+
+
+ul li{
+    list-style: none;
+    color: #424242;
+    padding: 7px 0;
+}
+
+.hrr{
+    color: #D6D6D6;
+}
+
+.head-right{
+    color: #424242;
+}
+
+div div p{
+    font-size: 13px;
+}
+
+
+a.nav-link.active {
+    color: #2791D0;
+}

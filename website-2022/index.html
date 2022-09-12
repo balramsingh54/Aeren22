@@ -71,8 +71,6 @@
 
             <div class="sides">
 
-
-
                 <div id="map">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.7118114606074!2d76.83937271546233!3d30.726501192983136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f933f216ad4d3%3A0xd86d238026e6312a!2sJupitice%20Justice%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1625033438641!5m2!1sen!2sin"
@@ -1982,32 +1980,44 @@
     </script>
 
     <script>
-        var videos = document.getElementsByTagName("video");
+        // var videos = document.getElementsByTagName("video");
+
+        // function checkScroll() {
+        //     var fraction = 0.0; // Play when 80% of the player is visible.
+
+        //     for (var i = 0; i < videos.length; i++) {
+
+        //         var video = videos[i];
+
+        //         var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
+        //             b = y + h, //bottom
+        //             visibleX, visibleY, visible;
+
+        //         visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
+        //         visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
+
+        //         visible = visibleX * visibleY / (w * h);
+
+        //         if (visible > fraction) {
+        //             video.pause();
+        //         } else {
+        //             video.play();
+        //         }
+
+        //     }
+
+       // }
+
+       let video = document.getElementById('video1');
 
         function checkScroll() {
-            var fraction = 0.2; // Play when 80% of the player is visible.
-
-            for (var i = 0; i < videos.length; i++) {
-
-                var video = videos[i];
-
-                var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
-                    b = y + h, //bottom
-                    visibleX, visibleY, visible;
-
-                visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
-                visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
-
-                visible = visibleX * visibleY / (w * h);
-
-                if (visible > fraction) {
-                    video.pause();
-                } else {
-                    video.play();
-                }
-
+            const threshold = 300 //px above the video to start playing
+            let offset = video.getBoundingClientRect().top
+            if (offset < threshold) {
+            video.play();
+            } else {
+            video.pause()
             }
-
         }
 
         window.addEventListener('scroll', checkScroll, false);
