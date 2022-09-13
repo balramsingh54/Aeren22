@@ -1,15 +1,24 @@
+body{
+    background-color: #ffffff !important;
+}
+
+/* .navigation-wrap{
+    background-color: white;
+} */
+
 .main-d{
-    padding-top: 50px;
+    position: relative;
+    padding-top: 100px;
     border-radius: 5px;
 }
 
 
 .left-box{
-    background-color: #F3F9FF;
+    background-color: #F3F9FF !important;
     font-style: Founders Grotesk;
 }
 
-ul{
+.uuu{
     padding-top: 30px;
 }
 
@@ -24,6 +33,10 @@ ul li{
     color: #D6D6D6;
 }
 
+.rrr{
+    padding: 0 30px !important;
+}
+
 .head-right{
     color: #424242;
 }
@@ -32,7 +45,18 @@ div div p{
     font-size: 13px;
 }
 
+body.overflow .nav-item .nav-link {
+    color: black !important;
+}
 
-a.nav-link.active {
-    color: #2791D0;
+div div div ol li a.active {
+    color: #2791D0 !important;
+}
+
+.bottom-main{
+    margin-top: 100px !important;
+}
+
+.policy{
+    padding-left: 50px !important;
 }
