@@ -1,0 +1,97 @@
+/* section - 1 */
+
+body{
+    background-color: white !important;
+}
+
+.c-first{
+    margin: 100px 0 50px 150px !important;
+    width: 500px !important;
+    padding-right: 100px !important;
+    padding-left: 25px !important;
+    font-family: Founders Grotesk !important;
+}
+
+.heading1{
+    font-weight: bold;
+}
+
+.para{
+    margin-bottom: 30px !important;
+}
+
+.address{
+    border-left: 2px solid lightgray !important;
+}
+
+.in-adress{
+    padding-left: 30px !important;
+}
+
+b{
+    font-size: 15px !important;
+}
+
+.hh{
+    padding: 3px 0;
+}
+
+
+.immg{
+    padding: 0 100px;
+}
+
+/* section - 3 */
+
+.formdesign{
+    padding: 0 200px;
+}
+
+.form-heading{
+    margin-bottom: 50px !important;
+    font-weight: 500;
+}
+
+.contact{
+    padding-top: 0px !important;
+}
+
+select {
+    word-wrap: normal;
+    padding: 15px;
+    width: 100%;
+}
+
+.select-option{
+        border: 1px solid #F1F5F5;
+        font-size: 16px;
+        background-color: #ffffff;
+}
+
+
+
+button[type="submit"] strong {
+    background-color: #1789CD !important;
+    border: 1px solid #1789CD !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 58px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 30px;
+    color: #fff;
+}
+
+.map-jupitice{
+    margin-top: 40px !important;
+    width: 100% !important;
+    height: 500px !important;
+}
+
+.mmm{
+    width: 100% !important;
+    height: 500px !important;
+}

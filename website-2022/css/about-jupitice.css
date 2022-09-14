@@ -1,0 +1,183 @@
+/* section - 1 */
+
+*{
+    font-family: Mont;
+}
+
+body{
+    background-color: white !important;
+    font-family: Founders Grotesk, Mont;
+}
+
+/* section 1 heading */
+
+.maindiv{
+    padding: 60px 120px 10px 120px;
+}
+
+.heading1{
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.para-everythink{
+    font-weight: 600;
+    line-height: 25px;
+}
+
+/* section 2  */
+
+.imgcomputer{
+    padding: 10px 80px;
+}
+
+.pppp{
+    padding: 10px 120px;
+}
+
+.good{
+    background-color: #030E2B;
+    padding: 80px 100px;
+}
+
+.knolw{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    padding: 0 20px 20px 20px;
+}
+
+.lleft{
+    padding-left: 60px;
+    text-align: center;
+}
+
+.goodheading{
+    padding-bottom: 5px;
+}
+
+.vision{
+    position: relative;
+    bottom: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .maindiv {
+        padding: 100px 60px 10px 60px;
+    }
+
+    .imgcomputer {
+        padding: 10px 20px;
+    }
+
+    .iiig{
+        height: 100px;
+    }
+
+    .pppp {
+        padding: 10px 60px;
+    }
+
+    .good {
+        background-color: #030E2B;
+        padding: 80px 70px;
+    }
+
+    .lleft {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .knolw {
+        margin-bottom: 70px;
+    }
+
+}
+
+
+@media screen and (min-width: 401px) and (max-width:576px) {
+
+    .maindiv {
+        padding: 100px 60px 10px 60px;
+    }
+
+    .imgcomputer {
+        padding: 10px 20px;
+    }
+
+    .iiig{
+        height: 150px;
+    }
+
+    .pppp {
+        padding: 10px 60px;
+    }
+
+    .good {
+        background-color: #030E2B;
+        padding: 80px 70px;
+    }
+
+    .lleft {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .knolw {
+        margin-bottom: 70px;
+    }    
+
+}
+
+@media screen and (min-width: 577px) and (max-width:768px) {
+
+    .maindiv {
+        padding: 100px 0 0 10px;
+    }
+
+    .imgcomputer {
+        padding: 10px 20px;
+    }
+
+    .iiig{
+        height: 200px;
+    }
+
+    .pppp {
+        padding: 10px 60px;
+    }
+
+    .good {
+        background-color: #030E2B;
+        padding: 80px 70px;
+    }
+
+    .lleft {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .knolw {
+        margin-bottom: 70px;
+    }    
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width:1020px) {
+
+    .maindiv {
+        padding: 190px 100px 10px 100px;
+    }
+
+    .lleft {
+        padding-left: 60px;
+        text-align: center;
+    }
+
+    .good {
+        background-color: #030E2B;
+        padding: 80px 15px;
+    }
+
+}
