@@ -4,6 +4,8 @@
     font-size: 12px;
 }
 
+
+
 .the-arbitration{
     background-color: #081242;
     text-align: center;
@@ -467,7 +469,9 @@ div div img{
   height: 30px !important;
 }
 
-
+.policy{
+  padding-left: 10px;
+}
 
 
 

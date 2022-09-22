@@ -253,7 +253,7 @@
 
     <div id="homevideo">
         <video class="video1" id="video1" width="100%" muted loop>
-            <source src="videos/justech.mp4" type="video/mp4" />
+            <source src="videos/justech.mp4" type="video/mp4"/>
         </video>
 
     </div>
@@ -1980,39 +1980,39 @@
     </script>
 
     <script>
-        // var videos = document.getElementsByTagName("video");
+    //     var videos = document.getElementsByTagName("video");
 
-        // function checkScroll() {
-        //     var fraction = 0.0; // Play when 80% of the player is visible.
+    //     function checkScroll() {
+    //         var fraction = 0.0; // Play when 80% of the player is visible.
 
-        //     for (var i = 0; i < videos.length; i++) {
+    //         for (var i = 0; i < videos.length; i++) {
 
-        //         var video = videos[i];
+    //             var video = videos[i];
 
-        //         var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
-        //             b = y + h, //bottom
-        //             visibleX, visibleY, visible;
+    //             var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
+    //                 b = y + h, //bottom
+    //                 visibleX, visibleY, visible;
 
-        //         visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
-        //         visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
+    //             visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
+    //             visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
 
-        //         visible = visibleX * visibleY / (w * h);
+    //             visible = visibleX * visibleY / (w * h);
 
-        //         if (visible > fraction) {
-        //             video.pause();
-        //         } else {
-        //             video.play();
-        //         }
+    //             if (visible > fraction) {
+    //                 video.pause();
+    //             } else {
+    //                 video.play();
+    //             }
 
-        //     }
+    //         }
 
-       // }
+    //    }
 
        let video = document.getElementById('video1');
 
-        function checkScroll() {
+       function checkScroll() {
             const threshold = 300 //px above the video to start playing
-            let offset = video.getBoundingClientRect().top
+            let offset = video.getBoundingClientRect().top;
             if (offset < threshold) {
             video.play();
             } else {
@@ -2020,9 +2020,12 @@
             }
         }
 
+
         window.addEventListener('scroll', checkScroll, false);
         window.addEventListener('resize', checkScroll, false);
     </script>
+
+
 
     <script type="text/javascript">
         document.addEventListener("mousemove", function (event) {

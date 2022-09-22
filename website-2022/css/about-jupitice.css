@@ -92,6 +92,10 @@ body{
         margin-bottom: 70px;
     }
 
+    .nnnn{
+        padding-left: 35px;
+    }
+
 }
 
 
@@ -125,7 +129,11 @@ body{
 
     .knolw {
         margin-bottom: 70px;
-    }    
+    }  
+    
+    .nnnn{
+        padding-left: 35px;
+    }
 
 }
 
@@ -159,7 +167,12 @@ body{
 
     .knolw {
         margin-bottom: 70px;
-    }    
+    }   
+    
+    .imgarrow-right {
+        text-align: right;
+        margin-top: 160px;
+    }
 
 }
 
