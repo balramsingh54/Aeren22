@@ -218,7 +218,7 @@ Main Components
   height: 6px;
   border-radius: 100%;
   position: absolute;
-  top: 15px;
+  top: 14px;
   left: 0;
   background-color: #009ddc;
 }
@@ -277,6 +277,11 @@ Main Components
   border-left: 3px solid #009ddc;
 }
 
+
+.jupitice-agreements-tabbing .nav-pills .nav-link.active{
+    color: #009ddc !important;
+}
+
 .jupitice-agreements-tabbing .tab-content > .tab-pane {
   background: #ffffff;
   box-shadow: 0 1px 30px rgb(0 0 0 / 15%);
@@ -333,12 +338,12 @@ a:hover {
 }
 
 .abc {
-  padding: 7px 0 !important;
+  padding: 7px 20px !important;
 }
 
-/** End of terms-of-services CSS **/
+/* End of terms-of-services CSS */
 
-/* @media screen and (min-width: 401px) and (max-width:976px) {
+ @media screen and (min-width: 401px) and (max-width:976px) {
 
 	.sectionm{
 		margin-top: 120px;
@@ -346,11 +351,11 @@ a:hover {
 
 }
 
-@media screen and (min-width: 977px) and (max-width:2000px) {
+/* @media screen and (min-width: 977px) and (max-width:2000px) {
 
 	.sectionm{
 		margin-top: 120px;
 	}
 
-}
- */
+} */
+
