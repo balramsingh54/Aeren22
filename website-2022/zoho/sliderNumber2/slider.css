@@ -1,0 +1,19 @@
+.slider-item {
+    border: 5px solid #333;
+    background: #ccc;
+    height: 200px;
+    font-size: 72px;
+    text-align: center;
+    line-height: 200px;
+  }
+  /* Slider arrows */
+  .slick-arrow {
+    z-index: 9;
+  }
+  .slick-prev {
+    left: 0;
+  }
+  .slick-next {
+    right: 0;
+  }
+  /* END: Slider arrows */
