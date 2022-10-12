@@ -1,0 +1,400 @@
+/* ------------------------------------------------
+  Project:   Jupitice
+  Author:    Balram
+------------------------------------------------ */
+
+/* ------------------------
+	General
+------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: #282929;
+  overflow-x: hidden;
+}
+
+/* ------------------------
+	Typography
+------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 2.3vw;
+  font-family: "Bitter", serif;
+  font-style: normal;
+  font-weight: 800;
+  color: #f9a305;
+}
+
+h2 {
+  font-size: 38px;
+  font-family: "Bitter", serif;
+  font-style: normal;
+  font-weight: 800;
+  color: #1c1b1b;
+  text-transform: none;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-style: normal;
+  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #1c1b1b;
+}
+
+h5 {
+  font-size: 1.4rem;
+  font-style: normal;
+  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #1c1b1b;
+}
+
+h6 {
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.sectionm .jupitice-terms-section .shadowright strong {
+  font-size: 14px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ------------------------
+	Terms and Conditions
+------------------------*/
+
+.terms-and-conditions .title {
+  margin-bottom: 10px;
+}
+
+.terms-and-conditions p {
+  margin-bottom: 25px;
+}
+
+.terms-and-conditions ul.list {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.terms-and-conditions ul.list li i {
+  padding-right: 12px;
+  font-size: 15px;
+}
+
+/* ------------------------
+	Privacy Policy
+------------------------*/
+
+.privacy-policy .title {
+  margin-bottom: 10px;
+}
+
+.privacy-policy p {
+  margin-bottom: 25px;
+}
+
+.privacy-policy ul.list {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.privacy-policy ul.list li i {
+  padding-right: 12px;
+  font-size: 15px;
+}
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: #008dc9 !important;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f9a305 !important;
+}
+
+/* --------------------------------
+
+Main Components
+
+-------------------------------- */
+
+.bullets-unordered-list {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.bullets-unordered-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.bullets-unordered-list ul > li {
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 15px;
+  position: relative;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+}
+
+.bullets-unordered-list ul > li:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  position: absolute;
+  top: 14px;
+  left: 0;
+  background-color: #009ddc;
+}
+
+.highlighted-content p {
+  color: #00599e;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/** terms-of-services CSS starts**/
+
+.jtos {
+  font-size: 19px;
+}
+
+.shadowright {
+  margin-right: 50px;
+}
+
+.jupitice-terms-section {
+  overflow: hidden;
+}
+
+.jupitice-agreements-tabbing .jupitice-tab-heading {
+  margin-bottom: 15px;
+}
+
+.jupitice-agreements-tabbing .jupitice-tab-heading h5 {
+  background-color: #009ddc;
+  padding: 10px 15px;
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+
+.jupitice-agreements-tabbing .nav .nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #282929;
+  border-left: 3px solid transparent;
+  border-radius: 0;
+  text-transform: capitalize;
+  transition: all ease-in-out 0.3s;
+}
+
+.jupitice-agreements-tabbing .nav .nav-link:hover {
+  background-color: #f0f0f0;
+}
+
+.jupitice-agreements-tabbing .nav-pills .nav-link.active,
+.jupitice-agreements-tabbing .nav-pills .show > .nav-link {
+  color: #009ddc;
+  background-color: #f0f0f0;
+  border-left: 3px solid #009ddc;
+}
+
+.jupitice-agreements-tabbing .nav-pills .nav-link.active {
+  color: #009ddc !important;
+}
+
+.jupitice-agreements-tabbing .tab-content > .tab-pane {
+  background: #ffffff;
+  box-shadow: 0 1px 30px rgb(0 0 0 / 15%);
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+  padding: 30px;
+  color: #4d4d4d;
+  text-align: justify;
+  margin: 50px 0;
+}
+
+.jupitice-agreements-tabbing .tab-content > .tab-pane .agreement-body ul {
+  list-style: none;
+}
+
+.jupitice-agreements-tabbing
+  .tab-content
+  > .tab-pane
+  .agreement-body
+  > ul
+  > li {
+  margin: 0 0 20px;
+}
+
+.content-table-wrap {
+  margin-bottom: 20px;
+}
+
+
+.sectionm{
+    background-color: #ffffff;
+}
+
+.leftdiv {
+  padding-left: 60px;
+}
+
+a {
+  color: #008dc9 !important;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f9a305 !important;
+}
+
+.jtos {
+  font-size: 19px;
+}
+
+.shadowright {
+  margin-right: 60px;
+}
+
+.leftdiv {
+  padding-left: 60px;
+  margin-top: 50px;
+}
+
+.abc {
+  padding: 7px 20px !important;
+}
+
+.card {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: inherit;
+  box-shadow: 0 0px 10px 4px rgb(31 66 135 / 10%);
+}
+
+.card .card-header {
+  border: 0;
+  border-radius: 2px;
+  padding: 5px 20px;
+}
+
+
+.card-header{
+    background-color: #ffffff !important;
+}
+
+.collapsed {
+  color: black !important;
+}
+
+.txt-para {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.card-body {
+  padding: 0 1.25rem rem 20px;
+  border-top: 1px solid #efefef;
+}
+
+/* End of terms-of-services CSS */
+
+@media screen and (min-width: 401px) and (max-width: 976px) {
+  .sectionm {
+    margin-top: 120px;
+  }
+}
+
+/* @media screen and (min-width: 977px) and (max-width:2000px) {
+
+	.sectionm{
+		margin-top: 120px;
+	}
+
+} */
