@@ -283,8 +283,7 @@ Main Components
 
 .jupitice-agreements-tabbing .tab-content > .tab-pane {
   background: #ffffff;
-  box-shadow: 0 1px 30px rgb(0 0 0 / 15%);
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+  /* box-shadow: 0 1px 30px rgb(0 0 0 / 15%); */
   padding: 30px;
   color: #4d4d4d;
   text-align: justify;
@@ -350,7 +349,7 @@ a:hover {
   border-radius: 5px;
   margin-bottom: 20px;
   overflow: inherit;
-  box-shadow: 0 0px 10px 4px rgb(31 66 135 / 10%);
+  /* box-shadow: 0 0px 10px 4px rgb(31 66 135 / 10%); */
 }
 
 .card .card-header {
@@ -370,12 +369,16 @@ a:hover {
 
 .txt-para {
   padding-top: 10px;
-  padding-left: 15px;
+  padding-left: 1px;
   font-weight: normal;
   font-size: 14px;
   line-height: 30px;
   margin-bottom: 15px;
   text-align: justify;
+}
+
+.fa-li {
+    padding-top: 12px !important;
 }
 
 .card-body {
