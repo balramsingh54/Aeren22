@@ -203,7 +203,7 @@
         <div class="container">
             <div class="jupitice-agreements-tabbing">
                 <div class="row">
-                    <div class="col-xl-4 col-lg-5 sticky-top leftdiv">
+                    <div class="col-xl-4 col-lg-5 leftdiv">
                         <div class="jupitice-tab-heading">
                             <h5 class="jtos">FAQs</h5>
                         </div>
@@ -5374,6 +5374,28 @@
             });
 
         })(jQuery); 
+    </script>
+
+
+<!-- sticky side baar -->
+
+    <script type="text/javascript">
+        var stickitLeft = $('.leftdiv').offset.left;
+        var stickitHeight = $('.leftdiv').height() + 'px';
+        var stickySidebarToTop = $('.leftdiv').offset().top;
+        $(window).scroll(function() {
+            var windowToTop = $(window).scrollTop();
+            if (windowToTop + 10 > stickySidebarToTop) {
+                $('.leftdiv').css({
+                'position': 'sticky',
+                'top': '100px',
+                'left': stickitLeft,
+                'height': stickitHeight
+                })
+            } else {
+                // $('.leftdiv').removeAttr('style');
+            }
+        })
     </script>
 
 

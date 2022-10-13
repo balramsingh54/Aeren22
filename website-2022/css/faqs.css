@@ -61,7 +61,7 @@ h2 {
   color: #1c1b1b;
   text-transform: none;
   margin-bottom: 10px;
-  position: relative;
+  /* position: relative; */
 }
 
 h3 {
@@ -207,7 +207,7 @@ Main Components
   font-size: 14px;
   font-weight: 400;
   padding-left: 15px;
-  position: relative;
+  /* position: relative; */
   margin-bottom: 10px;
   display: block;
   width: 100%;
@@ -218,7 +218,7 @@ Main Components
   width: 6px;
   height: 6px;
   border-radius: 100%;
-  position: absolute;
+  /* position: absolute; */
   top: 14px;
   left: 0;
   background-color: #009ddc;
@@ -236,9 +236,9 @@ Main Components
   font-size: 19px;
 }
 
-.shadowright {
+/* .shadowright {
   margin-right: 50px;
-}
+} */
 
 .jupitice-terms-section {
   overflow: hidden;
@@ -332,16 +332,26 @@ a:hover {
   font-size: 19px;
 }
 
-.shadowright {
-  margin-right: 60px;
-}
 
 .leftdiv {
   padding-left: 60px;
   margin-top: 50px;
-  overflow: auto;
-  /* position: sticky !important;
-  top: 200px !important; */
+  height: 600px;
+  overflow-y: scroll;
+}
+
+/* .leftdiv::-webkit-scrollbar{
+  display: none;
+} */
+
+
+.shadowright {
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.shadowright::-webkit-scrollbar{
+  display: none;
 }
 
 .abc {
@@ -387,7 +397,7 @@ a:hover {
 }
 
 .card-body {
-  padding: 0 1.25rem rem 20px;
+  padding: 0 2.3rem 20px;
   border-top: 1px solid #efefef;
 }
 
@@ -404,10 +414,6 @@ a:hover {
   transition: .5s;
 }
 
-.sectionm{
-  position: sticky;
-  top: 200px;
-}
 
 
 /* End of terms-of-services CSS */
