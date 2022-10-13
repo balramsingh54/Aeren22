@@ -160,6 +160,7 @@ img {
   font-size: 15px;
 }
 
+
 /* --------------------------------
 
 Primary style
@@ -338,6 +339,9 @@ a:hover {
 .leftdiv {
   padding-left: 60px;
   margin-top: 50px;
+  overflow: auto;
+  /* position: sticky !important;
+  top: 200px !important; */
 }
 
 .abc {
@@ -350,6 +354,7 @@ a:hover {
   margin-bottom: 20px;
   overflow: inherit;
   /* box-shadow: 0 0px 10px 4px rgb(31 66 135 / 10%); */
+  border-bottom: 1px solid lightgray;
 }
 
 .card .card-header {
@@ -385,6 +390,25 @@ a:hover {
   padding: 0 1.25rem rem 20px;
   border-top: 1px solid #efefef;
 }
+
+.card-header h5 a:after {
+  font-family: 'FontAwesome';
+  content: "\f077";
+  font-size: 10px;
+  float: right;
+  transition: .5s;
+}
+.card-header h5 a.collapsed:after{
+  /* content: "\f078"; */
+  transform: rotate(180deg);
+  transition: .5s;
+}
+
+.sectionm{
+  position: sticky;
+  top: 200px;
+}
+
 
 /* End of terms-of-services CSS */
 
